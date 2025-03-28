@@ -5,16 +5,29 @@
   </head>
   <body>
 
-  <form method="GET">
-      <input type="text" name="person">
-      <button>SUBMIT</button>
-</form>
+
+
 
  <?php
-    //this code is adding any name in front of "sitting down counting money!"
-    $name = $_GET['person'];
-    // what the code is going to do when you put "person...."
-     echo $name. " is the GOAT!";
+
+      //String
+      $name = 'Coding is fun';
+
+
+      //Integer
+      $name = 20;  
+
+       //Float
+       $name = 20.5784;
+
+       //BooLean
+       
+    
+       //Array
+       $names = array("Apple","Banana","Cranberry");
+       echo $names['2']
+
+
  ?>
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
